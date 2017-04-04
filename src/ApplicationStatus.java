@@ -1,9 +1,10 @@
 import java.io.Serializable;
 
-import javax.annotation.ManagedBean;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ApplicationScoped;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
-import javax.enterprise.context.ApplicationScoped;
+
 
 @ManagedBean
 @ApplicationScoped
